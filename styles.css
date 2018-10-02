@@ -1,0 +1,16 @@
+html, body {
+  margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(40, 114, 79);
+}
+
+body {
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2.5%, 2.5%, 0;
+  background: yellow;
+  line-height: 1.8;
+}
