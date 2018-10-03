@@ -33,7 +33,9 @@ font-size=40em;
 
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("/Images/banner maybe.jpg");
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), 
+        url("/Images/banner maybe.jpg");
 
     /* Set a specific height */
     height: 30%;
@@ -54,4 +56,50 @@ font-size=40em;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 1.3em;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(124,37,41);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #28724F;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+
+/* Let's try fixing the figures! */
+figure {
+  width: 45%;
+  text-align: center;
+  font-style: auto;
+  font-size: smaller;
+  border: none;
+  margin-bottom: 2em;
+  padding: 0.5em;
 }
