@@ -37,7 +37,7 @@ h2 {
 /* Darken the hero image for easier reading */
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), 
-        url("Images/banner maybe.jpg");
+        url("Images/heroImage.jpg");
 
 /* Set height for hero image */
     height: 35%;
