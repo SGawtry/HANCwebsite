@@ -91,7 +91,7 @@ h2 {
 
 /* Formatting figures inside tables */
 figure {
-  width: 45%;
+display: block;
   text-align: center;
   font-style: auto;
   font-size: smaller;
