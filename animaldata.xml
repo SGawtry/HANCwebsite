@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE animals [
+<!ELEMENT animal (image?, name, sciName, habitat, size?, funFact)>
+<!ATTLIST animal type (mammal|bird|other|taxidermy) #REQUIRED>
+<!ELEMENT image ANY>
+<!ATTLIST image width CDATA #REQUIRED>
+<!ATTLIST image height CDATA #REQUIRED>
+<!ATTLIST image alt CDATA #REQUIRED>
+<!ATTLIST image src CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT sciName (#PCDATA)>
+<!ELEMENT habitat ANY>
+<!ELEMENT funFact ANY>
+<!ELEMENT size (#PCDATA)>
+]>
+<animals>
+
+<!--Deer-->
+<animal type="mammal">
+<image width="296" height="170" alt="white-tailed deer adult male" src="/Images/whiteTailedDeerSmHor.JPG"></image>
+<name>White-tailed deer</name>
+<sciName>Odocoileus virginianus</sciName>
+<habitat>Can survive in many habitats, but prefer mixtures of hardwood trees, brush, crops, and pastures.</habitat>
+<size>Up to 7.2 ft tall</size>
+<funFact>Only the male deer has antlers. The fawns are born with white spots to help camoflauge them which fade away with age.</funFact>
+</animal> 
+
+<!--Mallard-->
+<animal type="bird">
+<name>Mallard</name>
+<sciName>Anas platyrhynchos</sciName>
+<habitat>Wetlands, ponds, and lakes</habitat>
+<size>24 inches long (adult)</size>
+<funFact>The female mallard is brown. Mallards swim with their tail above the water so that they can quickly spring out of the water if needed. (Source: MN DNR website)</funFact>    
+</animal>    
+
+</animals>
