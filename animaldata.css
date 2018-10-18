@@ -1,0 +1,38 @@
+animals {
+    display: block;
+    font-family: Arial;
+    font-size: 1em;
+    background-color: rgb(202,199,167);
+}
+
+animal{
+    display: block;
+    margin-bottom: 2.5em;
+}
+
+name {
+  color: rgb(40,114,79);
+  display: block;
+font-size: 1.5em;
+
+}
+
+sciName{
+    display: block;
+    font-style: italic;   
+}
+
+size{
+    display: block;
+}
+size::before {content: "Size: "}
+
+habitat{
+    display: block;
+}
+habitat::before {content: "Habitat: "}
+
+funFact {
+    display: block;
+}
+funFact::before {content: "Fun Fact: "}

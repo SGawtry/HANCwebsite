@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="animaldata.css"?>
 
 <!DOCTYPE animals [
 <!ELEMENT animal (image?, name, sciName, habitat, size?, funFact)>
@@ -14,6 +15,9 @@
 <!ELEMENT funFact ANY>
 <!ELEMENT size (#PCDATA)>
 ]>
+
+<!--Begin XML File-->
+
 <animals>
 
 <!--Deer-->
