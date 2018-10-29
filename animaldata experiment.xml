@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <?xml-stylesheet type="text/css" href="animaldata.css"?>
 
-<!DOCTYPE animals [
-<!ELEMENT animals (animal+)>
-<!ELEMENT animal (image?, name, sciName*, habitat, size?, funFact)>
-    <!ATTLIST animal type (mammal|bird|other|taxidermy) #REQUIRED>
-<!ELEMENT image EMPTY>
-    <!ATTLIST image width CDATA #REQUIRED>
-    <!ATTLIST image height CDATA #REQUIRED>
-    <!ATTLIST image alt CDATA #REQUIRED>
-    <!ATTLIST image src CDATA #REQUIRED>
+<!DOCTYPE animals [ Document Type Definition ]>
+
+
+<!ELEMENT animal (image?, name, sciName, habitat, size?, funFact)>
+<!ATTLIST animal type (mammal|bird|other|taxidermy) #REQUIRED>
+<!ELEMENT image ANY>
+<!ATTLIST image width CDATA #REQUIRED>
+<!ATTLIST image height CDATA #REQUIRED>
+<!ATTLIST image alt CDATA #REQUIRED>
+<!ATTLIST image src CDATA #REQUIRED>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT sciName (#PCDATA)>
 <!ELEMENT habitat ANY>
-<!ELEMENT size (#PCDATA)>
 <!ELEMENT funFact ANY>
+<!ELEMENT size (#PCDATA)>
 ]>
 
 <!--Begin XML File-->
