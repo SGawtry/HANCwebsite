@@ -23,8 +23,8 @@
 
 <!--Deer-->
 <animal type="mammal">
-<image width="296" height="170" alt="white-tailed deer adult male" src="/Images/whiteTailedDeerSmHor.JPG"></image>
 <name>White-tailed deer</name>
+<image width="296" height="170" alt="white-tailed deer adult male" src="/Images/whiteTailedDeerSmHor.JPG"></image>
 <sciName>Odocoileus virginianus</sciName>
 <habitat>Can survive in many habitats, but prefer mixtures of hardwood trees, brush, crops, and pastures.</habitat>
 <size>Up to 7.2 ft tall</size>
